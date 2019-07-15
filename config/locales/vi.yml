@@ -17,3 +17,13 @@ vi:
     home:
       home: "Trang chủ"
       content: "Nội dung"
+  users:
+    create_user: "Thêm nhân viên"
+    edit_user: "Cập nhật nhân viên"
+    name: "Tên"
+    address: "Địa chỉ"
+    phone: "Số điện thoại"
+    username: "Tên đăng nhập"
+    password: "Mật khẩu"
+    password_confirmation: "Xác nhận mật khẩu"
+    submit: "Gửi"
