@@ -27,8 +27,10 @@ class CombosController < ApplicationController
     respond_to do |format|
       if @combo.update combo_params
         format.html {redirect_to @combo}
+        format.js
       else
         format.html {render :edit}
+        format.js
       end
     end
   end
